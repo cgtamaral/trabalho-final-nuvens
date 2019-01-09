@@ -21,11 +21,11 @@
 
 ##### Basket microservice
 - Microserviço desenvolvido em NodeJS
-- **[catalog-microservice](https://github.com/lucashdp/basket-microservice)**
+- **[basket-microservice](https://github.com/lucashdp/basket-microservice)**
 
 ##### Locations microservice
 - Microserviço desenvolvido em .NET Core
-- **[catalog-microservice](https://github.com/lucashdp/locations-microservice)**
+- **[locations-microservice](https://github.com/lucashdp/locations-microservice)**
 
 ##### Ordering microservice
 - Microserviço desenvolvido em Java
