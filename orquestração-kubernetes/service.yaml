@@ -1,0 +1,99 @@
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: gateway-api-svc
+  labels:
+    app: gateway-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    nodePort: 30080
+  selector:
+    app: gateway-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: catalog-api-svc
+  labels:
+    app: catalog-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8081
+    nodePort: 30081
+  selector:
+    app: catalog-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: locations-api-svc
+  labels:
+    app: locations-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8082
+    nodePort: 30082
+  selector:
+    app: locations-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: basket-api-svc
+  labels:
+    app: basket-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8083
+    nodePort: 30083
+  selector:
+    app: basket-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: ordering-api-svc
+  labels:
+    app: ordering-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8084
+    nodePort: 30084
+  selector:
+    app: ordering-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: marketing-api-svc
+  labels:
+    app: marketing-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8085
+    nodePort: 30085
+  selector:
+    app: marketing-api
+# ------------------------------------------------------------------ #
+apiVersion: v1
+kind: Service
+metadata:
+  name: identity-api-svc
+  labels:
+    app: identity-api
+spec:
+  type: NodePort
+  ports:
+  - port: 8086
+    nodePort: 30086
+  selector:
+    app: identity-api
+# ------------------------------------------------------------------ #

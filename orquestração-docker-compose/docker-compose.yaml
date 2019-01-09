@@ -1,0 +1,31 @@
+version:  "2"
+services:
+  gateway:
+      image: lucasecleber/gateway-api
+      ports:
+        - "8000:8080"
+  catalog:
+      image: lucasecleber/catalog-api
+      ports:
+        - "8001:8081"
+  locations:
+      image: lucasecleber/locations-api
+      ports:
+        - "8002:8082"
+  basket:
+      image: lucasecleber/basket-api
+      ports:
+        - "8003:8083"
+  ordering:
+      image: lucasecleber/ordering-api
+      ports:
+        - "8004:8084"
+  marketing:
+      image: lucasecleber/marketing-api
+      ports:
+        - "8005:8085"
+  identity:
+      image: lucasecleber/identity-api
+      ports:
+        - "8006:8086"
+      

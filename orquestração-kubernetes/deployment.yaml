@@ -1,0 +1,120 @@
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gateway-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: gateway-api
+    spec:
+      containers:
+      - name: gateway-api
+        image: lucasecleber/gateway-api
+        ports:
+        - containerPort: 8080
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: catalog-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: catalog-api
+    spec:
+      containers:
+      - name: catalog-api
+        image: lucasecleber/catalog-api
+        ports:
+        - containerPort: 8081
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: locations-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: locations-api
+    spec:
+      containers:
+      - name: locations-api
+        image: lucasecleber/locations-api
+        ports:
+        - containerPort: 8082
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: basket-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: basket-api
+    spec:
+      containers:
+      - name: basket-api
+        image: lucasecleber/basket-api
+        ports:
+        - containerPort: 8083
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: ordering-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: ordering-api
+    spec:
+      containers:
+      - name: ordering-api
+        image: lucasecleber/ordering-api
+        ports:
+        - containerPort: 8084
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: marketing-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: marketing-api
+    spec:
+      containers:
+      - name: marketing-api
+        image: lucasecleber/marketing-api
+        ports:
+        - containerPort: 8085
+# ------------------------------------------------------------------ #
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: identity-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: identity-api
+    spec:
+      containers:
+      - name: identity-api
+        image: lucasecleber/identity-api
+        ports:
+        - containerPort: 8086
+# ------------------------------------------------------------------ #
