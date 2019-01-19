@@ -12,8 +12,8 @@
 #### APIs em containers (Dockerfile)
 
 ##### Gateway
-- ...
-- ...
+- API do tipo gateway desenvolvida em Java
+- **[api-gateway](https://github.com/cgtamaral/api-gateway)**
 
 ##### Catalog microservice
 - Microserviço desenvolvido em NodeJS
@@ -29,15 +29,15 @@
 
 ##### Ordering microservice
 - Microserviço desenvolvido em Java
-- ...
+- **[ordering-microservice](https://github.com/cgtamaral/ordering-microservice)**
 
 ##### Marketing microservice
 - Microserviço desenvolvido em Java
-- ...
+- **[marketing-microservice](https://github.com/cgtamaral/marketing-microservice)**
 
 ##### Identity microservice
 - Microserviço desenvolvido em Java
-- ...
+- **[identity-microservice](https://github.com/cgtamaral/identity-microservice)**
 
 #### Orqeustração de containers
 
