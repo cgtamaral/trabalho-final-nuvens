@@ -39,7 +39,7 @@
 - Microserviço desenvolvido em Java
 - **[identity-microservice](https://github.com/cgtamaral/identity-microservice)**
 
-#### Orqeustração de containers
+#### Orquestração de containers
 
 ##### Docker-Compose
 - Neste repositório localiza-se na pasta orquestração-docker-compose o arquivo .yaml referente ao docker-compose deste trabalho.
